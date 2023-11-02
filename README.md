@@ -1,52 +1,65 @@
 # xenon-stack-linux
 creating linux custom scripting
 
-.TH MYSCRIPT 1 "November 2023" "v0.1.0" "Myscript Manual Page"
-.SH NAME
-myscript \- a script for managing server resources and files
-.SH SYNOPSIS
-myscript [OPTIONS] COMMAND [ARGUMENT]
-.SH DESCRIPTION
-myscript is a script that provides various functionalities for managing server resources and files. It supports the following commands:
-.TP
-.B cpu getinfo
-Get CPU information.
-.TP
-.B memory getinfo
-Get memory information.
-.TP
-.B user create <username>
-Create a new user with the specified username.
-.TP
-.B user list
-List all the regular users on the system.
-.TP
-.B user list --sudo-only
-List all the users with sudo permissions.
-.TP
-.B file getinfo [OPTIONS] <filename>
-Get information about a file. Supported options include:
-.RS
-.TP
-.B --size, -s
-Display the size of the specified file.
-.TP
-.B --permissions, -p
-Display the permissions of the specified file.
-.TP
-.B --owner, -o
-Display the owner of the specified file.
-.TP
-.B --last-modified, -m
-Display the last modified time of the specified file.
-.RE
-.SH OPTIONS
-.TP
-.B --help
-Show help message.
-.TP
-.B --version
-Show the script version.
-.SH AUTHOR
-Your Name
+
+# Project Name
+
+A brief description of your project.
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+
+Provide an overview of your project. Explain what it does, why it's useful, and any context that would help a reader understand its purpose.
+
+## Features
+
+List the key features and functionalities of your project.
+
+## Getting Started
+
+Explain how to get started with your project, including installation instructions and any prerequisites.
+
+### Prerequisites
+
+List any software, libraries, or dependencies that users need to have installed before they can use your project.
+
+### Installation
+
+Provide step-by-step installation instructions, including any command-line or code examples.
+
+## Usage
+
+Show examples of how to use your project. This can include code snippets, screenshots, or usage scenarios.
+
+## Contributing
+
+Explain how others can contribute to your project. This may include information on how to report issues, submit pull requests, and your code of conduct.
+
+## License
+
+Indicate the license under which your project is released. For example, you can use a license badge and a link to the license text.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Acknowledgments
+
+If your project relies on the work of others or if you want to give credit to individuals or projects that inspired you, include an acknowledgments section.
+
+## Contact
+
+Provide your contact information or ways for users to reach out with questions or feedback.
+
+---
+
+Feel free to expand and customize this template according to your project's specific needs. A good README file should be informative and user-friendly, helping others understand and use your project effectively.
+
 
